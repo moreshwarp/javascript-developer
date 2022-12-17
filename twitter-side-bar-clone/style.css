@@ -6,8 +6,7 @@ body {
   margin: 0;
   background: #000000;
   color: #ffffff;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Ubuntu, "Helvetica Neue", sans-serif;
+  font-family: "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
 }
 
 .material-symbols-outlined {
@@ -59,7 +58,7 @@ body {
 }
 
 .sidebar button:hover > span {
-  background: rgba(255, 255, 255, 0.08);
+  background: #d7d5d514;
 }
 
 .sidebar button i {
@@ -109,7 +108,7 @@ button.tweet-button {
 }
 
 button.tweet-button > span {
-  background: #1d9bf0;
+  background: #199bf2;
   width: 100%;
   justify-content: center;
 }
