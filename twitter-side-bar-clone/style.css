@@ -39,22 +39,22 @@ body {
 .sidebar button {
   background: transparent;
   border: 0;
+  cursor: pointer;
+  color: inherit;
+  font-family: inherit;
   height: 60px;
   padding: 0;
-  font-family: inherit;
-  color: inherit;
-  cursor: pointer;
   text-align: left;
 }
 
 .sidebar button > span {
-  display: inline-flex;
   align-items: center;
+  border-radius: 24px;
+  display: inline-flex;
   gap: 12px;
   height: 48px;
-  padding: 0 16px 0 12px;
-  border-radius: 24px;
   line-height: 1;
+  padding: 0 16px 0 12px;
 }
 
 .sidebar button:hover > span {
@@ -62,30 +62,30 @@ body {
 }
 
 .sidebar button i {
-  position: relative;
   font-size: 28px;
+  position: relative;
   transition: 0.2s;
 }
 
 .sidebar button img {
-  width: 32px;
   height: 32px;
+  width: 32px;
 }
 
 .sidebar button i > span {
-  display: grid;
-  place-items: center;
-  padding: 2px 5px;
-  border-radius: 10px;
-  position: absolute;
-  top: -5px;
-  left: 50%;
-  translate: -50% 0;
   background: #1d9bf0;
+  border-radius: 10px;
   color: #f9f9f9;
+  display: grid;
+  font-style: normal;
   font-size: 10px;
   font-family: BlinkMacSystemFont;
-  font-style: normal;
+  place-items: center;
+  padding: 2px 5px;
+  position: absolute;
+  left: 50%;
+  top: -5px;
+  translate: -50% 0;
 }
 
 .sidebar button span {
@@ -93,8 +93,8 @@ body {
 }
 
 .sidebar > nav {
-  flex: 1 1 auto;
   display: flex;
+  flex: 1 1 auto;
   flex-direction: column;
   width: 100%;
 }
@@ -109,8 +109,8 @@ button.tweet-button {
 
 button.tweet-button > span {
   background: #199bf2;
-  width: 100%;
   justify-content: center;
+  width: 100%;
 }
 
 button.user-button .fullname {
