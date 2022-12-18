@@ -7,7 +7,23 @@
   </head>
   <body>
     <script>
+      "use strict";
       console.log("Array in JavaScript");
+
+      // Way's to decleare Arrays
+      const studentRecord = ["tom", { rollNumber: 23 }, true, 8];
+      const recordStudent = new Array("tom", { rollNumber: 23 }, true, 8);
+      console.log("Method 1" + studentRecord);
+      console.log("Metrhod 2" + recordStudent);
+
+      // Access the elements in the array
+      console.log(studentRecord[1]);
+
+      // Find the legth of an array
+      console.log(studentRecord.length);
+      const testDemo = [];
+      let manipuletLength = testDemo.length + 3;
+      console.log(manipuletLength);
     </script>
   </body>
 </html>
