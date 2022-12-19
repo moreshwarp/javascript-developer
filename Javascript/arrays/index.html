@@ -44,6 +44,27 @@
       // console.log(books.slice(2, 5));
       console.log(books.slice(2, -1));
       // console.log(books.slice(3, -1));
+
+      // indexOf() method
+
+      const employeeData = ["tom", "john", "peter", "steven"];
+      console.log(employeeData.indexOf("tom")); // will return 0
+      console.log(employeeData.indexOf("steven", 2)); // will start search from 2nd index in array employeeData and return 3
+      console.log(employeeData.indexOf("peter", 3)); // will start search from 3rd index in array employeeData
+
+      // push() method
+      console.log("push() Method");
+      const bookStack = [
+        "One Of Us Is Lying",
+        "Hooked",
+        "Meditations",
+        "THE SILENT PATIENT",
+      ];
+
+      console.log(bookStack + bookStack.length);
+      console.log(bookStack.push("When Breath Becomes Air"));
+      console.log(bookStack);
+      console.log(bookStack.length);
     </script>
   </body>
 </html>
