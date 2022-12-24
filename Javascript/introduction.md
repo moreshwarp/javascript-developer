@@ -1,5 +1,3 @@
-[An Introduction to JavaScript](https://moreshwar.hashnode.dev/javascript)
-
 # Basics of Programing Language
 
 1. Values
