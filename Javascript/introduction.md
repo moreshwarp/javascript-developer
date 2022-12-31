@@ -1,4 +1,4 @@
-# Basics of Programing Language
+# Basics of Programing Language or fundamentals of JavaScript
 
 1. Values
 
