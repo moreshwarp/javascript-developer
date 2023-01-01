@@ -7,7 +7,7 @@
     <title>Form in HTML</title>
   </head>
   <body>
-    <form action="">
+    <form action="" method="get" novalidate="true">
       <div class="form-name">
         <label>First Name:</label>
         <input type="text" placeholder="Moreshwar" name="fname" required />
@@ -42,16 +42,59 @@
         <label for="female">Female</label>
       </div>
 
+      <!-- Checkbox-->
       <code>
-        <input type="checkbox" value="html" /> HTML
-        <input type="checkbox" value="css" /> CSS
-        <input type="checkbox" value="taiwind" /> Tailwind
-        <input type="checkbox" value="javascript" /> JavaScript
+        <input type="checkbox" value="html" id="html" checked />
+        <label for="html">HTML</label>
+        <input type="checkbox" value="css" id="css" checked />
+        <label for="css">CSS</label>
+        <input type="checkbox" value="taiwind" id="taiwind" />
+        <label for="taiwind">Tailwind</label>
+        <input type="checkbox" value="javascript" id="javascript" checked />
+        <label for="javascript">javascript</label>
       </code>
-      <div><input type="button" value="Submit" onclick=""/></div>
+
+      <!-- Button -->
+      <div><input type="button" value="iNeuron" onclick="" disabled /></div>
+      <div>
+        <input type="button" value="AccessKey" onclick="" accesskey="s" />
+      </div>
       <div>
         <input type="submit" value="Submit" />
         <input type="reset" value="Reset" />
+      </div>
+
+      <!-- Color -->
+      <div>
+        <input type="color" id="color" value="#e66465" />
+        <label for="color">Color</label>
+      </div>
+
+      <!-- Date -->
+      <div>
+        <input
+          type="date"
+          id="date"
+          min="2023-01-01"
+          max="2023-01-31"
+          step="2"
+          checked
+          required
+        />
+        <label for="date">Date Element</label>
+      </div>
+
+      <!-- Datetime Local -->
+      <div>
+        <input
+          type="datetime-local"
+          id="local"
+          min="2023-01-01"
+          max="2023-01-31"
+          step="5"
+          required
+        />
+        <label for="local">Date Time Local</label>
       </div>
     </form>
   </body>
