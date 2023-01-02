@@ -89,12 +89,30 @@
         <input
           type="datetime-local"
           id="local"
-          min="2023-01-01"
-          max="2023-01-31"
+          value="2023-01-01"
+          min="2023-01-01T00:00"
+          max="2023-01-31T00:00"
           step="5"
           required
         />
         <label for="local">Date Time Local</label>
+      </div>
+
+      <!-- Email in HTML -->
+      <style>
+        [type="email"]:valid {
+          background-color: #ade8ad;
+        }
+
+        [type="email"]:invalid {
+          background-color: #e7d6d6;
+        }
+      </style>
+      <div>
+        <label for="email_id">
+          Email Id:
+          <input type="email" id="email_id" name="email_id" required />
+        </label>
       </div>
     </form>
   </body>
