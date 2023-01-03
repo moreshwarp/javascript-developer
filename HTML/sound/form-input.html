@@ -98,7 +98,7 @@
         <label for="local">Date Time Local</label>
       </div>
 
-      <!-- Email in HTML -->
+      <!-- Input Type Email in HTML -->
       <style>
         [type="email"]:valid {
           background-color: #ade8ad;
@@ -111,7 +111,32 @@
       <div>
         <label for="email_id">
           Email Id:
-          <input type="email" id="email_id" name="email_id" required />
+          <input
+            title="Enter you Email Id"
+            type="email"
+            id="email_id"
+            name="email_id"
+            maxlength="30"
+            size="30"
+            placeholder="test@gmail.com"
+            multiple
+            required
+          />
+        </label>
+      </div>
+
+      <!-- Input Type File in HTML -->
+      <div>
+        <label>
+          Upload your file
+          <input
+            type="file"
+            id="fileId"
+            name="fileId"
+            title="Upload File here "
+            accept="image/*,.doc,.xml"
+            size="2"
+          />
         </label>
       </div>
     </form>
