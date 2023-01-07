@@ -73,6 +73,7 @@ console.log(object5.test);
 Object.defineProperty(object5, "bookIcon", {
   // objectModified: "Yes",
   get: () => "📘",
+  enumerable: true, // false will exclude this property
 });
 
 // Object.defineProperties(object5, "setBook", {
@@ -85,9 +86,10 @@ console.log(object5.bookIcon);
 console.log(object5);
 console.log(Object.getPrototypeOf(object5));
 
+// Making Object Numerable
+console.log("Making Object Numeriable");
 for (i in object5) {
   console.log(i);
-  console.log(i.bookIcon);
 }
 
 const object6 = {
