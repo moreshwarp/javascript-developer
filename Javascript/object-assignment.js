@@ -69,3 +69,45 @@ console.log("Part 5");
 console.log("Object 5");
 const object5 = Object.create({ test: true });
 console.log(object5.test);
+
+Object.defineProperty(object5, "bookIcon", {
+  // objectModified: "Yes",
+  get: () => "📘",
+});
+
+// Object.defineProperties(object5, "setBook", {
+//   set: () => "✅📘",
+// });
+
+console.log(object5);
+console.log(object5.test);
+console.log(object5.bookIcon);
+console.log(object5);
+console.log(Object.getPrototypeOf(object5));
+
+for (i in object5) {
+  console.log(i);
+  console.log(i.bookIcon);
+}
+
+const object6 = {
+  bookName: "Start With Why",
+  author: "Simon Sinek",
+
+  review: function () {
+    this.author = "Simon S";
+    console.log("this KeyWord is:");
+    console.log(this);
+    return this; // This return value is required
+  },
+  reviews: () => {
+    this.author = "Change";
+  },
+};
+
+console.log("Object 6");
+console.log(object6);
+// console.log(object6.review);
+
+console.log("Review Function called");
+console.log(object6.review());
