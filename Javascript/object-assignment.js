@@ -1,3 +1,17 @@
+console.log(this);
+
+let name = "Moreshwar";
+console.log(name);
+let getName = function () {
+  let lastName = "Pidadi";
+  console.log(this);
+  console.log(name + +lastName);
+};
+
+console.log(getName);
+console.log(getName());
+// console.log(getName());
+
 // Part 1
 
 // Creating an Object
