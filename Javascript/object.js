@@ -69,5 +69,5 @@ const obj5 = {
   // },
 };
 
-console.log(obj5.printComic().printComic().printComic());
+console.log(obj5.printComic().printComic().printComic()); // Same method is passed on to consecative methods.
 // console.log(obj5.printaComic());
