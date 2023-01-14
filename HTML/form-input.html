@@ -212,24 +212,50 @@
           />
         </label>
       </div>
-    </form>
 
-    <!-- Input Type Numbers -->
-    <div>
-      <label>
-        Numbers
-        <input
-          type="number"
-          name="number"
-          id="number"
-          value="10"
-          step="5"
-          min="10"
-          max="100"
-          placeholder="Please enter numeric value"
-          required
-        />
-      </label>
-    </div>
+      <!-- Input Type Numbers -->
+      <div>
+        <label id="number">
+          Numbers
+          <input
+            type="number"
+            name="number"
+            id="number"
+            value="10"
+            step="5"
+            min="10"
+            max="100"
+            placeholder="Please enter numeric value"
+            required
+          />
+        </label>
+      </div>
+
+      <!-- Input Type Password -->
+      <div>
+        <label for="password">
+          Passwords
+          <input
+            type="password"
+            name="password"
+            id="password"
+            pattern=""
+            autocomplete="new-password"
+            placeholder="Please Enter your Password"
+            required
+          />
+        </label>
+      </div>
+
+      <!-- Input Type Radio -->
+      <div>
+        <input type="radio" id="html1" name="radio" value="html" />
+        <label for="html1"> HTML </label>
+        <input type="radio" id="css1" name="radio" value="css" />
+        <label for="css1"> CSS </label>
+        <input type="radio" id="js1" name="radio" value="js" checked />
+        <label for="js1"> JavaScript </label>
+      </div>
+    </form>
   </body>
 </html>
