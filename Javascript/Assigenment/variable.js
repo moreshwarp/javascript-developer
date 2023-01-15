@@ -1,4 +1,4 @@
-// Question 1
+// Question 01. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types, Display all the value with their data type.
 
 // String DataType
 const firstName = "Moreshwar";
@@ -24,7 +24,7 @@ console.log(nullDataType === null);
 const bigIntData = 16464646764694674764964747614n;
 console.log("Value is " + bigIntData + " Datatype " + typeof bigIntData);
 
-// Question 2
+// Question 02. Declare variables to store your first name, last name, marital status, country and age and display them using interploation method.
 
 const selfProfile = {
   firstName: "Moreshwar",
@@ -37,17 +37,19 @@ const selfProfile = {
 console.log(`Hi There,
             My name is ${selfProfile.firstName} ${selfProfile.lastName} I am from ${selfProfile.country} and ${selfProfile.age} and current marritial status is ${selfProfile.matrialStatus}`);
 
-// Question 3
+// Question 03. Declare a varibale and assign string value to it and change all the string characters to capital letters using toUpperCase() method.
+
 const userName = "Moreshwar";
 console.log(userName);
 console.log(userName.toUpperCase());
 
-// Question 4
+// Question 04. Declare a varibale and assign string value to it and check if the string contains a word Script using includes() method.
 
 const wordString = "Hello World Demo";
 console.log(wordString.trim().toLowerCase().includes("world"));
 
-// Question 5
+// Question 05. Declare a varibale and assign string value to it and then split it into an array using split() method
+
 const splitString = "Hello This Is An Split String Ex.";
 console.log(splitString.split(" "));
 // console.log(splitString.split(""));
@@ -60,3 +62,34 @@ console.log(arrayString[4]);
 console.log(arrayString[5]);
 console.log(arrayString[2]);
 console.log(arrayString[4]);
+
+// Question : 06. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
+
+const arrFang = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon";
+console.log(arrFang);
+console.log(arrFang.split(","));
+// console.log(arrFang.split());
+
+// Question 07. Declare an array containing the multiple values and use lastIndexOf to determine the position of the first and last occurrence of a word "pw skills".
+
+const arr = [
+  "Moreshwar",
+  26,
+  true,
+  4545,
+  "test",
+  "pw skills",
+  "DataTypes",
+  "Assignment",
+  "pw skills",
+];
+
+console.log(arr);
+console.log(`pw skills First occurance is at ${arr.indexOf("pw skills")}`);
+console.log(`pw skills Last occurance is at ${arr.lastIndexOf("pw skills")}`);
+
+// Question 08. Demonstrate the use of trim() to remove any trailing whitespace at the beginning and the end of a string.
+
+const trimString = " Hello How are you doing ";
+console.table(`String with white spaces ${trimString}`);
+console.table(`String without the whiteSpaces ${trimString.trim()}`);
