@@ -12,5 +12,3 @@
 1. ✅[💀Git and GitHub](https://moreshwar.hashnode.dev/git)
 1. ✅[®️Role of JS in web programing](https://moreshwar.hashnode.dev/javascript-intro)
 1. ✅[👉Input Elements in HTML](https://moreshwar.hashnode.dev/input-elements-in-html)
-
-##
