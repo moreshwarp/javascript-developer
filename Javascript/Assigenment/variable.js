@@ -50,6 +50,8 @@ console.log(wordString.trim().toLowerCase().includes("world"));
 // Question 5
 const splitString = "Hello This Is An Split String Ex.";
 console.log(splitString.split(" "));
+// console.log(splitString.split(""));
+// console.log(splitString.split("AN"));
 const arrayString = splitString.split(" ");
 console.log(arrayString[0]);
 console.log(arrayString[1]);
