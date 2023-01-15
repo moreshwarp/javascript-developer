@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Form in HTML</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form in HTML</title>
   </head>
   <body>
     <form action="" method="get" novalidate="true">
@@ -279,15 +279,52 @@
       </div>
 
       <!-- Input Type Search -->
+      <form role="search">
+        <div>
+          <label for="search">Search</label>
+          <input
+            type="serch"
+            id="search"
+            name="search"
+            spellcheck="true"
+            placeholder="Search your query"
+            required
+          />
+        </div>
+      </form>
+
+      <!-- Input Type tel -->
       <div>
-        <label for="search">Search</label>
-        <input
-          type="serch"
-          id="search"
-          name="search"
-          placeholder="Search your query"
-          required
-        />
+        <label for="tel">
+          tel
+          <input
+            type="tel"
+            name="tel"
+            maxlength="10"
+            placeholder="tel. phone #"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            id="tel"
+            required
+          />
+        </label>
+      </div>
+
+      <!-- Input Type text -->
+      <div>
+        <label for="text">
+          Text
+          <input
+            type="text"
+            name="text"
+            minlength="10"
+            maxlength="100"
+            size="100"
+            spellcheck="true"
+            placeholder="Enter Text"
+            id="text"
+            required
+          />
+        </label>
       </div>
     </form>
   </body>
