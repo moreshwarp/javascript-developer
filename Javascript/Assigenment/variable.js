@@ -88,8 +88,27 @@ console.log(arr);
 console.log(`pw skills First occurance is at ${arr.indexOf("pw skills")}`);
 console.log(`pw skills Last occurance is at ${arr.lastIndexOf("pw skills")}`);
 
-// Question 08. Demonstrate the use of trim() to remove any trailing whitespace at the beginning and the end of a string.
+// Question 08. Demonstrate the use of trim() to remove any trailing whitespace at the beginning and the end of a string
 
 const trimString = " Hello How are you doing ";
 console.table(`String with white spaces ${trimString}`);
 console.table(`String without the whiteSpaces ${trimString.trim()}`);
+
+// Question 09. Boolean value is either true or false.
+//    - Write three JavaScript statement example which provide truthy value.
+//    - Write three JavaScript statement example which provide falsy value.
+
+const testNumberOne = "4";
+const testNumberTwo = 4;
+const result = testNumberOne + testNumberTwo;
+console.log(result);
+console.log(`${result ? true : false}`);
+// Type Coersion concept
+console.log(Number(testNumberOne) + testNumberTwo);
+
+// Falsy Value
+const falsyExample = "";
+const nanNumber = null;
+
+console.log(`${falsyExample ? true : false}`);
+console.log(`${nanNumber ? true : false}`);
