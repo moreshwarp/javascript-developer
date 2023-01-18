@@ -334,6 +334,39 @@
           <input type="time" name="time" id="time" required />
         </label>
       </div>
+
+      <!-- Input Type CheckBox -->
+      <div>
+        <label for="url">
+          URL
+          <input
+            type="url"
+            name="url"
+            id="url"
+            pattern="https://.*"
+            placeholder="https://google.com"
+            spellcheck="true"
+            size="30"
+            required
+          />
+        </label>
+      </div>
+
+      <!-- Input Type Week -->
+      <div>
+        <label for="week">
+          Week
+          <input
+            type="week"
+            name="week"
+            id="week"
+            min="2023-W02"
+            max="2023-W04"
+            value="2023-W02"
+            required
+          />
+        </label>
+      </div>
     </form>
   </body>
 </html>
