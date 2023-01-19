@@ -148,3 +148,47 @@ console.log(testVarTwo.length);
 
 // Created a falsy statment
 console.log(6 === "6");
+
+// Question 11. Use the Date object to do the following activities
+console.log("Data Object in JavaScript");
+
+const dateObject = new Date();
+// console.log(dateObject.toString()); // Platform independent format
+// console.log(dateObject); // Platform independent format
+// dateObject.setFullYear()
+// console.log(dateObject.getDate());
+// console.log(dateObject.getMilliseconds());
+
+// What is the year today?
+console.log(dateObject.getFullYear());
+
+// What is the month today as a number?
+console.log(dateObject.getMonth());
+
+//  What is the date today?
+console.log(dateObject.getDate());
+
+// What is the day today as a number?
+console.log(dateObject.getDate());
+
+// What is the hours now?
+console.log(dateObject.getHours());
+
+// What is the minutes now?
+console.log(dateObject.getMinutes());
+
+// Find out the numbers of seconds elapsed from January 1, 1970 to now.
+console.log("Test");
+
+console.log(dateObject.getSeconds());
+
+// Question 12. Create a human readable time format using the Date time object
+// - YYYY-MM-DD HH:mm
+// - DD-MM-YYYY HH:mm
+// - DD/MM/YYYY HH:mm
+
+const dateObject_2 = new Date("2023-01-19 20:55");
+console.log(dateObject_2.toLocaleTimeString());
+console.log(dateObject_2);
+const dateObject_3 = new Date("20-01-2023");
+// console.log(dateObject_3);
