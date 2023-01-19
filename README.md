@@ -21,3 +21,5 @@
 1. ✅[®️Role of JS in web programing](https://moreshwar.hashnode.dev/javascript-intro)
 
 1. ✅[👉Input Elements in HTML](https://moreshwar.hashnode.dev/input-types)
+
+1. ✅[Audio🔉 and Video📽️ Tags Blog](https://moreshwar.hashnode.dev/audio-and-video-tags)
