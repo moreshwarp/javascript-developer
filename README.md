@@ -6,7 +6,7 @@
 
 1. [An Introduction to JavaScript](https://moreshwar.hashnode.dev/javascript)
 
-1. [Flexbox](https://moreshwar.hashnode.dev/flexbox)
+1. 💪[Flexbox](https://moreshwar.hashnode.dev/flexbox)
 
 1. [Selectors in CSS](https://moreshwar.hashnode.dev/selectors-in-css)
 
