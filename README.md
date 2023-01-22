@@ -1,6 +1,6 @@
-# Full Stack JavaScript Developer
+# 🧑‍💻🧑‍💻Full Stack JavaScript Developer🧑‍💻🧑‍💻
 
-## Article's on Web Technologies (HTML, CSS, JavaScript, React, GIT ETC.)
+## Article's on Web Technologies (HTML, CSS, JavaScript, React, GIT etc.)
 
 1. [Server, Web Server & HTML](https://moreshwar.hashnode.dev/webserver-html)
 
