@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Click Circle</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./script.js" />
+    <style>
+      body {
+        background-color: #777;
+        padding: 0;
+        margin: 0;
+        width: 2000px;
+        height: 2000px;
+      }
+
+      .circle {
+        /* position: absolute; */
+        border-radius: 50%;
+        background-color: rgb(175, 31, 31);
+        width: 20px;
+        height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="circle"></div> -->
+    <script>
+      // const webPage = document.querySelector("body");
+      // console.log(webPage);
+      document.body.addEventListener("click", function (event) {
+        let xPosition = event.clientX + "px";
+        let yPosition = event.clientY + "px";
+        console.log(xPosition, xPosition);
+        // const test = document.getElementsByTagName("body");
+        // document.body.classList.add("circle");
+
+        const circle = document.createElement("circle");
+        document.body.appendChild(circle);
+        // console.log(test);
+      });
+    </script>
+  </body>
+</html>
