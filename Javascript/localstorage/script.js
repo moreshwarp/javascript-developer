@@ -24,6 +24,5 @@ let aObject = {
   nickName: "More",
 };
 
-let value_1 = JSON.stringify(aObject);
-localStorage.setItem("object", value_1);
-console.log(localStorage.getItem(JSON.parse(value_1)));
+localStorage.setItem("object", JSON.stringify(aObject));
+console.log(localStorage.getItem("object"));
