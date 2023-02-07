@@ -1,9 +1,13 @@
 console.log(document.cookie);
 
 document.cookie = "name=Moreshwar";
+
 document.cookie = "name1=Moreshwar1";
+
 document.cookie = "name2=Moreshwar2";
+
 document.cookie = "name3=Moreshwar3";
+
 document.cookie = "name4=Moreshwar4";
 
 console.log(document.cookie);
@@ -28,4 +32,4 @@ document.cookie = "user10=Moreshwar; path=/; max-age=1000";
 console.log(document.cookie);
 
 // On and average the cookie last for 45 minutes.
-// If an cookie option either of these cookie option last then in that case we can say that 
+// If an cookie option either of these cookie option last then in that case we can say that
