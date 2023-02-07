@@ -20,10 +20,12 @@ console.log(document.cookie);
 console.log(decodeURIComponent("%40%23%40%23%40!%23!%40"));
 
 // Cookie Options
-
 document.cookie =
   "user=Moreshwar; path=/; expires=Tue, 6 Feb 2023 02:06:00 GMT";
 
 document.cookie = "user10=Moreshwar; path=/; max-age=1000";
 
 console.log(document.cookie);
+
+// On and average the cookie last for 45 minutes.
+// If an cookie option either of these cookie option last then in that case we can say that 
