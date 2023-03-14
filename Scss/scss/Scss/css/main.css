@@ -1,3 +1,18 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: #777;
+  color: #fff;
+}
+body p {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  color: #e5d68a;
+}
+.main .main__paragraph {
+  color: #ff652f;
+  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */

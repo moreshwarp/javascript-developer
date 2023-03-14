@@ -1,7 +1,53 @@
 $primary-color: #777;
 $accent-color: #ff652f;
 $text-color: #fff;
-
+$secondary-color: #e5d68a;
+// Maps in SCSS
+$font-weight: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 700,
+);
 body {
+  margin: 0;
+  padding: 0;
   background-color: $primary-color;
+  color: $text-color;
+  // font-weight: map-get($font-weight, bold);
+  // font-weight: map-get($font-weight, bold);
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.main {
+  color: $secondary-color;
+  font-weight: map-get($font-weight, normal);
+
+  // Nesting in SCSS
+  // p {
+  //   color: $accent-color;
+  //   font-weight: map-get($font-weight, bold);
+  // }
+
+  // Demo / Reference Purpose
+
+  // .main__paragraph {
+  //   color: $accent-color;
+  //   font-weight: map-get($font-weight, bold);
+  // }
+
+  // Here & is parent in SCSS
+  // &__paragraph {
+  //   color: $accent-color;
+  //   font-weight: map-get($font-weight, bold);
+  // }
+
+  // Interpolation as we want everything before &
+
+  #{&}__paragraph {
+    color: $accent-color;
+    font-weight: map-get($font-weight, bold);
+  }
 }
