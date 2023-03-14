@@ -1,0 +1,17 @@
+{
+  "liveSassCompile.settings.watchOnLaunch": true,
+  "liveSassCompile.settings.formats": [
+    // This is Default
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/Scss/css"
+    }
+    // You can add more
+    // {
+    //   "format": "compressed",
+    //   "extensionName": ".min.css",
+    //   "savePath": "/dist/css"
+    // }
+  ]
+}
