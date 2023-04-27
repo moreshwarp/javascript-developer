@@ -7,7 +7,6 @@ body {
   background-color: $primary-color;
   color: $text-color;
   // Map get feature in SCSS
-
   // font-weight: map-get($font-weight, bold);
   // font-weight: map-get($font-weight, bold);
 }
@@ -28,8 +27,8 @@ body {
 .main {
   color: $secondary-color;
   font-weight: weight(medium);
-  // @include flexCenter(column-reverse);
 
+  // @include flexCenter(column-reverse);
   @include flexCenter(column);
 
   // Nesting in SCSS
@@ -39,7 +38,6 @@ body {
   // }
 
   // Demo / Reference Purpose
-
   // .main__paragraph {
   //   color: $accent-color;
   //   font-weight: weight($font-weight, bold);
@@ -52,7 +50,6 @@ body {
   // }
 
   // Interpolation as we want everything before &
-
   #{&}__paragraph {
     color: $accent-color;
     font-weight: weight(normal);
